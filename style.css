@@ -46,17 +46,29 @@ p {
     gap: 15px;
 }
 
-.btn-logo {
-    height: 24px; 
-    width: auto;
-    display: none; 
+.link-item {
+    background-color: #333333;
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.2s, background-color 0.2s;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
+.btn-logo {
+    height: 24px;
+    width: auto;
+    display: none;
+}
 
 .link-item:hover {
     transform: scale(1.02);
-    /* Se quiser que o botão continue mudando para verde, descomente a linha abaixo: */
-    /* background-color: #00df9a; color: #000; */
 }
 
 .link-item:hover .btn-logo {
